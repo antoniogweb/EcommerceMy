@@ -1,0 +1,109 @@
+$background-muted-background: #EEEBE9;
+$background-primary-background: #563A2D !default;
+$background-secondary-background: #8E7D76 !default;
+
+$global-font-family: 'Raleway', sans-serif;
+$global-color: #563A2D !default;
+$global-muted-color: #8E7D76 !default;
+
+$global-link-color: #563A2D !default;
+$global-link-hover-color: #563A2D !default;
+$global-emphasis-color: #563A2D !default;
+$base-hr-border: #563A2D;
+
+$button-default-background: #563A2D;
+$button-default-color: #fff;
+$button-default-hover-background: #8E7D76;
+$button-default-hover-color: #fff;
+$button-default-border: #563A2D;
+$button-default-active-border:  #563A2D;
+
+$button-primary-background: #8E7D76;
+$button-primary-color: #fff;
+$button-primary-hover-background: #EEEBE9;
+$button-primary-hover-color: #563A2D;
+$button-primary-border: #8E7D76;
+$button-primary-active-border: #EEEBE9;
+
+$button-secondary-background: #EEEBE9;
+$button-secondary-color: #563A2D;
+$button-secondary-hover-background: #8E7D76;
+$button-secondary-hover-color: #fff;
+$button-secondary-border: #EEEBE9;
+$button-secondary-active-border:  #EEEBE9;
+
+$global-large-font-size: 2.3em;
+$offcanvas-bar-background: #fff;
+$offcanvas-bar-color-mode: none;
+
+.uk-text-emphasis{ font-family: 'Cormorant Garamond', serif !important; }
+/*.uk-text-emphasis {
+    color: #563A2D !important;
+}*/
+
+.uk-background-green{
+	background: #D9ED92;
+}
+
+//Import default variables and available mixins.
+@import "../../../Scss/Uikit/variables-theme.scss";
+@import "../../../Scss/Uikit/mixins-theme.scss";
+
+//Import UIkit.
+@import "../../../Scss/Uikit/uikit-theme.scss";
+@import "../../../Scss/cookies.scss";
+
+@import "../../../Scss/eg-position.scss";
+@import "../../../Scss/eg-position-responsive@xs.scss";
+@import "../../../Scss/eg-position-responsive@s.scss";
+@import "../../../Scss/eg-position-responsive@m.scss";
+@import "../../../Scss/eg-position-responsive@l.scss";
+@import "../../../Scss/eg-position-responsive@xl.scss";
+
+@import "../../../Scss/eg-text.scss";
+@import "../../../Scss/eg-visibility.scss";
+@import "../../../Scss/eg-correzioni.scss";
+
+// menu mobile
+
+.hc-nav-trigger {
+    position: relative;
+    top: auto;
+}
+.hc-nav-trigger span, .hc-nav-trigger span::before, .hc-nav-trigger span::after{
+	height: 1.5px;
+}
+
+.hc-offcanvas-nav .nav-wrapper > .nav-content > ul:first-of-type > li:first-child:not(.nav-back):not(.nav-close) > .nav-item-wrapper > .nav-item-link {
+    border-top: 1px solid #8E7D76;
+}
+.hc-offcanvas-nav:not(.touch-device) li:not(.nav-item-custom) a:not([disabled]):hover {
+    background: #563A2D;
+}
+
+.hc-offcanvas-nav .nav-content > .nav-close:first-child a, .hc-offcanvas-nav .nav-title + .nav-close a.has-label, .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav .nav-back a {
+    background: #8E7D76;
+    border-top: 1px solid #8E7D76;
+    border-bottom: 1px solid #8E7D76;
+}
+
+.hc-offcanvas-nav .nav-item-link, .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav .nav-back a{
+	border-bottom: 1px solid #563A2D;
+}
+
+.hc-offcanvas-nav .nav-content > .nav-close:first-child a:hover, .hc-offcanvas-nav .nav-title + .nav-close a.has-label:hover, .hc-offcanvas-nav li.nav-close a:hover, .hc-offcanvas-nav .nav-back a:hover {
+    background: #563A2D;
+}
+
+.hc-offcanvas-nav .nav-container, .hc-offcanvas-nav .nav-wrapper, .hc-offcanvas-nav ul{
+	background: #8E7D76;
+}
+
+.es-navbar-button .uk-badge {
+	font-size: 0.625rem;
+    position: absolute;
+    top: -6px;
+    right: -9px;
+    min-width: 18px;
+    height: 18px;
+}
