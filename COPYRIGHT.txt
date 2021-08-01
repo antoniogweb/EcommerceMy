@@ -13,3 +13,23 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+EcommerceMy includes works distributed under the licenses listed below.
+
+Uikit
+-------
+link: 		https://getuikit.com/
+
+jQuery
+-------
+link:	https://jquery.com/
+
+iCheck
+-------
+link:	https://plugins.jquery.com/icheck/
+
+
+Image Picker
+-------
+link:	https://rvera.github.io/image-picker/
