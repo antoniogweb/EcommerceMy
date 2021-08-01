@@ -5,3 +5,4 @@
 config.php
 /Public/uikit/*
 /images/*
+/media/*
